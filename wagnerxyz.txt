@@ -1,0 +1,8 @@
+	? Git init初始化目录
+	? Git checkout xxx切换branch git branch -b xxx新建branch
+	? Git status文件状态
+	? Git add . 添加所有文件到暂存区 然后commit 提交 最后push到remote
+	? SSH方式需要SSH Key ,HTTPS方式不需要，需要账户密码，github推荐https方式
+	? 本地手动删除文件恢复$ git checkout -- test.txt
+
+	Git reset -hard master丢弃本地所有改动与提交，服务器上获取最新版本信息
